@@ -11,8 +11,8 @@ public class InMemorySecutiryConfig {
 	public void configureGlobal(AuthenticationManagerBuilder builder) throws Exception {
 		builder
 			.inMemoryAuthentication()
-			.withUser("admin@gft.com").password("{noop}Gft@1234").roles("USER", "ADMIN")
+			.withUser("admin@oohay.com").password("{noop}Pw@1234").roles("USER", "ADMIN")
 			.and()
-			.withUser("usuario@gft.com").password("{noop}Gft@1234").roles("USER");
+			.withUser("usuario@oohay.com").password("{noop}Pw@1234").roles("USER");
 	}
 }
